@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("./tailwind.css");
+@import url("./reset.css");
+
+.nav-btn {
+   @apply px-5 transition-all cursor-pointer select-none text-light py-0.5 rounded-full peer-checked:bg-light/95 peer-checked:text-inherit;
+}
+.linear-gradient {
+   background-image: linear-gradient(to right bottom, var(--color-1), var(--color-2));
+}
+.doted-border{
+   display: flex;
+   height: 12px;
+   border-left: 2px dotted #fff;
+   margin: 0 auto;
+}
